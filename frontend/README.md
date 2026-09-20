@@ -36,8 +36,8 @@ TaskSpace is a modern, full-stack project management application designed for se
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/shreygupta15/flowstate-task-manager.git
-   cd flowstate-task-manager/frontend
+   git clone https://github.com/shreygupta15/TaskSpace.git
+   cd TaskSpace/frontend
    ```
 
 2. **Install dependencies:**
@@ -56,4 +56,8 @@ TaskSpace is a modern, full-stack project management application designed for se
 *(Note: Make sure the backend server is also running on port 5000)*
 
 ## 🤝 Contributing
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/shreygupta15/flowstate-task-manager/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/shreygupta15/TaskSpace/issues).
+
+---
+
+*Designed and built by Shrey Gupta.*

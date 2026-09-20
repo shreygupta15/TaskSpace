@@ -90,4 +90,5 @@ npm run dev
 Your application will now be running at `http://localhost:5173`!
 
 ---
-**Designed and built by Shrey Gupta**
+
+*Designed and built by Shrey Gupta.*

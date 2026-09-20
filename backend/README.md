@@ -28,8 +28,8 @@ This is the backend service for the TaskSpace project management application. It
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/shreygupta15/flowstate-task-manager.git
-   cd flowstate-task-manager/backend
+   git clone https://github.com/shreygupta15/TaskSpace.git
+   cd TaskSpace/backend
    ```
 
 2. **Install dependencies:**
@@ -60,4 +60,5 @@ The server will start on `http://localhost:5000`.
 - **Dashboard:** `GET /api/dashboard/stats`
 
 ---
-**Designed and built by Shrey Gupta**
+
+*Designed and built by Shrey Gupta.*
