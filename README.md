@@ -1,10 +1,10 @@
-# 🌊 Flow - Premium Task Management
+# 🌊 TaskSpace - Premium Task Management
 
 ![MERN Stack](https://img.shields.io/badge/Stack-MERN-blue?style=for-the-badge&logo=mongodb)
 ![React](https://img.shields.io/badge/Frontend-React%20%2B%20Vite-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Tailwind](https://img.shields.io/badge/Styling-Tailwind%20CSS-38B2AC?style=for-the-badge&logo=tailwind-css)
 
-**Flow** is a modern, full-stack task management application designed to help teams organize workflows and achieve their goals faster. It features a state-of-the-art **Glassmorphic UI**, role-based access control, and an intuitive drag-and-drop-style Kanban board.
+**TaskSpace** is a modern, full-stack task management application designed to help teams organize workflows and achieve their goals faster. It features a state-of-the-art **Glassmorphic UI**, role-based access control, and an intuitive drag-and-drop-style Kanban board.
 
 ---
 
