@@ -15,7 +15,7 @@ const Navbar = ({ user, logout }) => {
         <div className="flex items-center gap-8">
           <Link to="/" className="flex items-center gap-2 font-extrabold text-2xl text-slate-800 ml-2">
             <Sparkles className="h-6 w-6 text-indigo-500" />
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-pink-500">Flow</span>
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-pink-500">TaskSpace</span>
           </Link>
           
           <div className="hidden md:flex items-center gap-2">

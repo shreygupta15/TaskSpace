@@ -1,16 +1,59 @@
-# React + Vite
+# TaskSpace 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+TaskSpace is a modern, full-stack project management application designed for seamless team collaboration. Featuring a sleek glassmorphism UI, a drag-and-drop Kanban board, and real-time analytics, TaskSpace helps teams stay in their flow state and manage projects efficiently.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Drag-and-Drop Kanban Board:** Intuitively manage task statuses (To Do, In Progress, Review, Done) using `@dnd-kit`.
+- **Analytics Dashboard:** Visualize project metrics and task distributions with interactive charts powered by `recharts`.
+- **Glassmorphism UI:** A beautiful, modern interface built with Tailwind CSS.
+- **URL-Based Filtering:** Bookmarkable search and filtering for quick task retrieval.
+- **Role-Based Access Control:** Differentiated access levels for Admins and Members (Backend).
+- **Responsive Design:** Optimized for both desktop and mobile viewing.
 
-## React Compiler
+## 🛠 Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Frontend:**
+- React (Vite)
+- Tailwind CSS
+- `@dnd-kit` (Drag and Drop)
+- `recharts` (Data Visualization)
+- `framer-motion` (Animations)
+- `lucide-react` (Icons)
 
-## Expanding the ESLint configuration
+**Backend:**
+- Node.js & Express
+- MongoDB & Mongoose
+- JWT (JSON Web Tokens) for Authentication
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v18+)
+- npm or yarn
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/shreygupta15/flowstate-task-manager.git
+   cd flowstate-task-manager/frontend
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser:**
+   Navigate to `http://localhost:5173`
+
+*(Note: Make sure the backend server is also running on port 5000)*
+
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/shreygupta15/flowstate-task-manager/issues).
