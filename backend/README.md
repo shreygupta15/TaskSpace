@@ -58,3 +58,6 @@ The server will start on `http://localhost:5000`.
 - **Projects:** `GET /api/projects`, `POST /api/projects`, `DELETE /api/projects/:id`
 - **Tasks:** `GET /api/tasks`, `POST /api/tasks`, `PUT /api/tasks/:id`, `DELETE /api/tasks/:id`
 - **Dashboard:** `GET /api/dashboard/stats`
+
+---
+**Designed and built by Shrey Gupta**
