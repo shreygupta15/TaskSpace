@@ -4,7 +4,35 @@
 ![React](https://img.shields.io/badge/Frontend-React%20%2B%20Vite-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Tailwind](https://img.shields.io/badge/Styling-Tailwind%20CSS-38B2AC?style=for-the-badge&logo=tailwind-css)
 
+🚀 **Live Demo:** [https://task-space-teal.vercel.app](https://task-space-teal.vercel.app)
+
 **TaskSpace** is a modern, full-stack task management application designed to help teams organize workflows and achieve their goals faster. It features a state-of-the-art **Glassmorphic UI**, role-based access control, and an intuitive drag-and-drop-style Kanban board.
+
+---
+
+## 🏛️ Architecture
+
+```mermaid
+graph TD
+    %% Styling
+    classDef client fill:#61DAFB,stroke:#fff,stroke-width:2px,color:#000
+    classDef server fill:#339933,stroke:#fff,stroke-width:2px,color:#fff
+    classDef database fill:#47A248,stroke:#fff,stroke-width:2px,color:#fff
+    classDef auth fill:#F7DF1E,stroke:#fff,stroke-width:2px,color:#000
+
+    %% Nodes
+    Client["💻 Client (React + Vite + Tailwind)"]:::client
+    Server["⚙️ Server (Node.js + Express)"]:::server
+    DB[("🗄️ Database (MongoDB Atlas)")]:::database
+    JWT{"🔐 Auth (JWT)"}:::auth
+
+    %% Connections
+    Client -- "REST API Calls (Axios)" --> Server
+    Server -- "Mongoose ODM" --> DB
+    Client -- "Login / Register" --> JWT
+    JWT -- "Validates Requests" --> Server
+    Server -- "JSON Responses" --> Client
+```
 
 ---
 
